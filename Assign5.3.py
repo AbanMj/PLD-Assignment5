@@ -9,15 +9,16 @@ def inputage():
 Age = inputage()
 
 if Age == 0 and Age <= 12:
-    print("Kid")
+    print("According to your age, your life stage is Kid. ")
 else:#0 - 12 : Kid
     if Age >= 13 and Age <= 17:
-        print("Teen")
+        print("According to your age, your life stage is Teen")
     else:#13 - 17 : Teen
         if Age == 18:
-            print("Debut")
+            print("According to your age, your life stage is Debut")
         else:#18 : Debut
             if Age >= 19:
-                print("Adult")
+                print("According to your age, your life stage is Adult")
             else: #19 above : Adult
                 pass
+
