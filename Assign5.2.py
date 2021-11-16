@@ -4,9 +4,15 @@
 #Display the lowest number
 
 def lowest_func():
-    first = int(input("Enter your 1st number: "))
-    second = int(input("Enter your 2nd number: "))
-    third = int(input("Enter your 3rd number: "))
+    first = int(input ("    Enter your 1st number: "))
+    second = int(input("    Enter your 2nd number: "))
+    third = int(input ("    Enter your 3rd number: "))
+    return first, second, third
+
+def lowest_func():
+    first = float(input ("    Enter your 1st number: "))
+    second = float(input("    Enter your 2nd number: "))
+    third = float(input ("    Enter your 3rd number: "))
     return first, second, third
 
 first, second, third = lowest_func()
@@ -22,4 +28,4 @@ else:
         else:
             pass
 
-print(f"The lowest number among the 3 numbers is {small}.")
+print(f"    Among the 3 numbers you gave, the lowest number is {small}.")
